@@ -476,7 +476,9 @@ footer {
 }
 @media (max-width: 1000px) {
   .section-1 .nav {
-    margin: 3% 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+
   }
   .section-1 .nav ul img {
     height: 100%;
@@ -502,14 +504,15 @@ footer {
     top: 0;
     left: 0;
     right: 0;
-    margin: 3% 5%;
+    margin: 3% 3%;
   }
 
 }
 @media(max-width: 720px){
   .section-1 .nav ul .sub-ul{
-    font-size: 14px;
-    padding: 8px 18px;
+    /* font-size: 14px; */
+    /* padding: 8px 0px 18px; */
+    height: 100%;
   }
   .section-1 .nav ul img {
   width: 150px;
