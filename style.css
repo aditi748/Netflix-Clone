@@ -304,7 +304,7 @@ body,
   justify-content: center;
   align-items: center;
 }
-.accordion{
+.accordion {
   display: flex;
   flex-direction: column;
 }
@@ -414,16 +414,15 @@ footer {
   .section-2 h2,
   .section-2 h2,
   .section-4 h2 {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
 
-  .faq h2{
+  .faq h2 {
     font-size: 3rem;
   }
   .section-2,
   .section-3,
-  .section-4
-   {
+  .section-4 {
     height: 80%;
   }
   .section-2-content-1 {
@@ -490,35 +489,37 @@ footer {
     margin-left: 3%;
   }
   .section-1 .nav ul img {
-    height: 100%;
-    width: 150px;
+    width: 120px;
   }
   .section-1 .nav ul .sub-ul .nav-explore {
-    margin-right: 20px;
+    margin-right: 10px;
+  }
+  .section-1 .nav ul .sub-ul li {
+    padding: 10px 10px;
+    font-size: 15px;
   }
   .section-1 p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
-  .faq-content{
+  .faq-content {
     width: 100%;
   }
-  .faq{
+  .faq {
     padding: 5%;
-
   }
-  .accordion{
+  .accordion {
     width: 100%;
   }
-  .accordion details{
+  .accordion details {
     width: 95%;
   }
-  .faq h2{
+  .faq h2 {
     font-size: 2.7rem;
   }
-  .accordion details summary{
+  .accordion details summary {
     font-size: 1.6rem;
   }
-  .accordion details p{
+  .accordion details p {
     font-size: 1.3rem;
     z-index: 1;
   }
@@ -526,7 +527,20 @@ footer {
 
 @media (max-width: 860px) {
   .section-1 h2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+  }
+  .section-1-content p {
+    font-size: 1.3rem;
+  }
+  .section-1 .nav ul img {
+    width: 120px;
+  }
+  .section-1 .nav ul .sub-ul .nav-explore {
+    margin-right: 10px;
+  }
+  .section-1 .nav ul .sub-ul li {
+    padding: 10px 10px;
+    font-size: 15px;
   }
   .section-1-content {
     margin: 0% 5%;
@@ -537,13 +551,13 @@ footer {
     right: 0;
     margin: 3% 3%;
   }
-  .faq h2{
+  .faq h2 {
     font-size: 2.5rem;
   }
-  .accordion details summary{
+  .accordion details summary {
     font-size: 1.4rem;
   }
-  .accordion details p{
+  .accordion details p {
     font-size: 1.1rem;
   }
 }
@@ -575,7 +589,7 @@ footer {
     width: 80%;
   }
   .section-1 p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 }
 @media (max-width: 640px) {
@@ -587,7 +601,7 @@ footer {
   #email {
     margin: 0;
     width: 100%;
-    padding: 5%;
+    padding: 4% 5%;
   }
   .form div {
     margin-top: 3%;
@@ -596,9 +610,18 @@ footer {
 }
 @media (max-width: 420px) {
   .section-1 .nav ul img {
-    width: 100px;
+    width: 120px;
   }
-  .section-1 .nav ul li {
-    padding: 0%;
+  .section-1 .nav ul .sub-ul .nav-explore {
+    margin-right: 10px;
+  }
+  .section-1 .nav ul .sub-ul li {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 330px) {
+  .section-1 .nav ul .sub-ul li {
+    font-size: 10px;
   }
 }
