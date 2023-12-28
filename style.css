@@ -296,17 +296,23 @@ body,
   margin-bottom: 3%;
 }
 .faq-content {
-  height: 80%;
+  height: 100%;
   width: 80%;
   padding-bottom: 5%;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.accordion{
+  display: flex;
+  flex-direction: column;
 }
 .accordion details {
   background-color: rgb(61, 61, 61);
   margin-bottom: 8px;
   width: 80vw;
+  overflow: hidden;
 }
 
 .accordion details summary {
@@ -416,8 +422,8 @@ footer {
   }
   .section-2,
   .section-3,
-  .section-4,
-  .faq {
+  .section-4
+   {
     height: 80%;
   }
   .section-2-content-1 {
@@ -493,6 +499,19 @@ footer {
   .section-1 p {
     font-size: 1.7rem;
   }
+  .faq-content{
+    width: 100%;
+  }
+  .faq{
+    padding: 5%;
+
+  }
+  .accordion{
+    width: 100%;
+  }
+  .accordion details{
+    width: 95%;
+  }
   .faq h2{
     font-size: 2.7rem;
   }
@@ -501,6 +520,7 @@ footer {
   }
   .accordion details p{
     font-size: 1.3rem;
+    z-index: 1;
   }
 }
 
