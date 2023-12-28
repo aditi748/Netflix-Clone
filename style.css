@@ -154,6 +154,8 @@ body,
 .section-2 {
   margin-bottom: 10px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 640px;
   background-color: black;
 }
@@ -162,11 +164,8 @@ body,
   justify-content: center;
   align-items: center;
   color: white;
-  height: 80%;
+  height: fit-content;
   width: 80%;
-  position: relative;
-  left: 10%;
-  top: 10%;
 }
 .section-2-content-1 {
   padding: 0% 3%;
@@ -183,6 +182,7 @@ body,
   position: relative;
   display: flex;
   justify-content: center;
+  
 }
 .section-2-content-2 img {
   z-index: 1;
@@ -210,7 +210,7 @@ body,
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 80%;
+  height: fit-content;
 }
 .section-3-content-1 h2 {
   font-size: 3.5rem;
@@ -250,14 +250,13 @@ body,
   background-color: black;
   color: white;
   height: 640px;
-  /* width: 80%; */
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
 }
 .section-4-content {
-  height: 80%;
+  height: fit-content;
   width: 80%;
   display: flex;
   align-items: center;
@@ -291,8 +290,8 @@ body,
 .faq h2 {
   text-align: center;
   font-size: 3.5rem;
-  margin-top: 6%;
-  margin-bottom: 3%;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 .faq-content {
   height: 100%;
@@ -308,11 +307,12 @@ body,
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .accordion details {
   background-color: rgb(61, 61, 61);
   margin-bottom: 8px;
-  width: 80vw;
+  width: 100%;
 }
 
 .accordion details summary {
@@ -320,7 +320,6 @@ body,
   list-style: none;
   font-size: 1.4rem;
   padding: 2.5% 2.5%;
-  /* font-weight: bold; */
 }
 .accordion details summary:hover {
   cursor: pointer;
@@ -508,7 +507,7 @@ footer {
     width: 100%;
   }
   .accordion details {
-   width: 95%;
+   /* width: 95%; */
  }
   /*
   .faq h2 {
