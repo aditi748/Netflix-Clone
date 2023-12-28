@@ -5,6 +5,7 @@
   font-family: Arial, Helvetica, sans-serif;
   outline: none;
   border: none;
+  align-items: center;
 }
 
 
@@ -99,8 +100,8 @@ html, body,
   margin-bottom: 3.2%;
 }
 .section-1-content p {
-  font-size: 1.5rem;
-  margin-bottom: 1%;
+  font-size: 1.9rem;
+  margin-bottom: 4%;
   /* font-weight: bold; */
 }
 .section-1-content-email {
@@ -488,7 +489,7 @@ footer {
   margin-right: 20px;
 }
 .section-1 p {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
 
 }
@@ -535,19 +536,24 @@ footer {
 .section-4-content-2 img{
   width: 80%;
 }
+.section-1 p {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 640px){
   .form{
     display: flex;
     flex-direction: column;
+    margin: 0% 5%;
   }
   #email{
     margin: 0;
+    width: 100%;
+     padding: 5%;
   }
   .form div{
     margin-top: 3%;
-    padding-left: 24%;
-    padding-right: 24%;
+    width: 100%;
   }
 
 }
