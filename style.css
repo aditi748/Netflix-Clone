@@ -592,7 +592,7 @@ footer {
     font-size: 1.1rem;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 670px) {
   .form {
     display: flex;
     flex-direction: column;
@@ -606,6 +606,7 @@ footer {
   .form div {
     margin-top: 3%;
     width: 100%;
+    padding: 13px;
   }
 }
 @media (max-width: 420px) {
